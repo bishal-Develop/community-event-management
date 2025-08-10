@@ -1,154 +1,202 @@
 [
     {
+      "id": 1,
       "title": "Sydney Tech Summit",
       "date": "2025-09-18T09:00:00+10:00",
       "venue": "ICC Sydney, Darling Harbour",
-      "description": "A two-day conference on modern web, cloud, and AI tooling for developers.",
-      "image": "https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&w=600&q=80",
-      "embeddedMap": "https://www.google.com/maps?q=ICC%20Sydney%20Darling%20Harbour&output=embed"
+      "description": "The Sydney Tech Summit is a two-day professional conference designed to bring together technology leaders, developers, and industry experts to discuss the latest advancements in web development, cloud infrastructure, and artificial intelligence. Day one will open with keynote presentations from leading figures in the tech sector, providing insights into current trends, market forecasts, and innovative case studies. Breakout sessions throughout the day will cover topics such as serverless architecture, progressive web apps, and integrating AI into production systems. Attendees can choose from multiple parallel tracks, ensuring content is relevant to their roles and interests. The exhibition floor will host product demonstrations from software vendors, showcasing development tools, frameworks, and emerging technologies. On day two, the focus will shift toward applied learning, with hands-on workshops on container orchestration, cloud cost optimization, and AI ethics. Panel discussions will feature CIOs and startup founders sharing their approaches to scaling engineering teams and managing technological change. Networking sessions, including a structured 'meet the experts' segment, will provide opportunities for one-on-one conversations with speakers and sponsors. A dedicated startup showcase will give emerging companies the chance to present their solutions to an audience of investors and industry professionals. By the conclusion of the summit, attendees will leave with practical strategies, an expanded professional network, and a clearer understanding of the tools and practices shaping the future of technology.",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+      "embeddedMap": "https://www.google.com/maps?q=ICC%20Sydney%20Darling%20Harbour&output=embed",
+      "category": "Tech"
     },
     {
+      "id": 2,
       "title": "Harbour City Startup Night",
       "date": "2025-10-07T18:30:00+11:00",
       "venue": "Sydney Startup Hub, Wynyard",
-      "description": "Pitches, lightning talks, and networking with founders and VCs.",
-      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=600&q=80",
-      "embeddedMap": "https://www.google.com/maps?q=Sydney%20Startup%20Hub&output=embed"
+      "description": "Harbour City Startup Night is an evening networking and pitching event designed for entrepreneurs, investors, and startup ecosystem supporters. The program begins with a welcome address and a short panel discussion on current market opportunities for early-stage ventures, featuring perspectives from venture capitalists, successful founders, and business development experts. Following this, a series of lightning pitches will be delivered by pre-selected startup teams representing a range of industries including fintech, healthtech, and sustainable manufacturing. Each team will have five minutes to present their business model, followed by a Q&A session with the judging panel. A showcase area will be available where attendees can meet the founders, view prototypes, and discuss collaboration opportunities. The evening will also include a dedicated 'founder networking hour', structured to help match entrepreneurs with potential advisors, mentors, or co-founders. Information booths from local incubators, accelerators, and government grant programs will provide resources for attendees seeking funding or business support services. By attending, participants will gain exposure to innovative products, insight into investor expectations, and connections within the Sydney startup scene. The event aims to strengthen the city’s entrepreneurial network and encourage the sharing of practical knowledge.",
+      "image": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1200&q=80",
+      "embeddedMap": "https://www.google.com/maps?q=Sydney%20Startup%20Hub&output=embed",
+      "category": "Business"
     },
     {
+      "id": 3,
       "title": "Open Source Festival",
       "date": "2025-11-15T10:00:00+11:00",
       "venue": "Sydney Town Hall, George St",
-      "description": "Celebrate open source with workshops, maintainers’ panels, and community booths.",
-      "image": "https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=600&q=80",
-      "embeddedMap": "https://www.google.com/maps?q=Sydney%20Town%20Hall&output=embed"
+      "description": "The Open Source Festival is a community-driven event celebrating the impact and growth of open source software. The festival will feature keynote addresses from maintainers of major open source projects, sharing their journeys, challenges, and visions for the future. Attendees can participate in a variety of sessions, including contributor onboarding workshops, code sprints, and technical deep dives into popular frameworks and languages. A dedicated track will focus on licensing, governance, and the business models that support sustainable open source development. Project showcases will give smaller, emerging initiatives the chance to present their work and attract contributors. The exhibition area will include booths from nonprofit organizations, tech companies, and community groups offering information on how to get involved. Networking lounges will be available for informal discussions, fostering connections between developers, designers, and product managers. Special attention will be given to inclusivity and diversity, with sessions highlighting initiatives that promote equitable participation in the open source ecosystem. The day will conclude with a panel discussion on the role of open source in addressing global challenges such as climate change, public health, and education access.",
+      "image": "https://images.unsplash.com/photo-1535223289827-42f1e9919769?auto=format&fit=crop&w=1200&q=80",
+      "embeddedMap": "https://www.google.com/maps?q=Sydney%20Town%20Hall&output=embed",
+      "category": "Culture"
     },
     {
+      "id": 4,
       "title": "Front-End Masters Live",
       "date": "2025-12-04T09:30:00+11:00",
       "venue": "UTS Great Hall, Ultimo",
-      "description": "Deep dives into performance, accessibility, design systems, and CSS architecture.",
-      "image": "https://images.unsplash.com/photo-1515165562835-c9327686e52e?auto=format&fit=crop&w=600&q=80",
-      "embeddedMap": "https://www.google.com/maps?q=UTS%20Great%20Hall%20Ultimo&output=embed"
+      "description": "Front-End Masters Live is a full-day conference dedicated to advanced front-end web development topics. The program will feature technical sessions from leading engineers and designers on subjects such as performance optimization, progressive enhancement, CSS architecture, and design systems. Attendees will have access to multiple tracks, enabling them to select sessions most relevant to their skill levels and interests. Workshops will be conducted on topics such as building accessible user interfaces, implementing complex animations, and integrating component libraries into large-scale projects. A product showcase will highlight emerging tools and frameworks, offering hands-on demonstrations and opportunities to engage with tool creators. Panel discussions will address the future of front-end workflows, cross-functional collaboration with UX teams, and maintaining code quality in rapidly changing environments. The conference aims to equip attendees with actionable techniques to improve their development practices while fostering professional connections within the design and development community. Networking breaks and a post-event mixer will provide additional opportunities for peer learning and collaboration.",
+      "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1200&q=80",
+      "embeddedMap": "https://www.google.com/maps?q=UTS%20Great%20Hall%20Ultimo&output=embed",
+      "category": "Tech"
     },
     {
+      "id": 5,
       "title": "Summer Code Camp",
       "date": "2026-01-20T09:00:00+11:00",
       "venue": "University of Sydney, Camperdown",
-      "description": "Hands-on bootcamp for JavaScript, TypeScript, and Web APIs with project mentoring.",
-      "image": "https://images.unsplash.com/photo-1485217988980-11786ced9454?auto=format&fit=crop&w=600&q=80",
-      "embeddedMap": "https://www.google.com/maps?q=University%20of%20Sydney%20Camperdown&output=embed"
+      "description": "Summer Code Camp is a week-long immersive program designed for developers seeking to strengthen their skills in JavaScript, TypeScript, and modern Web APIs. The camp will combine structured instruction with project-based learning, enabling participants to apply new techniques immediately. Each day will begin with a short lecture covering core concepts such as asynchronous programming, API integration, and front-end build pipelines. This will be followed by guided coding sessions where attendees work in small groups under the supervision of experienced mentors. Specialized workshops will address topics like state management, test-driven development, and deploying applications to cloud environments. Evening sessions will feature guest speakers from the tech industry sharing career insights and technical case studies. Participants will also engage in a mid-week hackathon, building small projects that demonstrate the concepts covered. The final day will conclude with project presentations, allowing teams to receive feedback from instructors and peers. By the end of the program, attendees will have a stronger grasp of modern web development practices and a portfolio of completed projects.",
+      "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=1200&q=80",
+      "embeddedMap": "https://www.google.com/maps?q=University%20of%20Sydney%20Camperdown&output=embed",
+      "category": "Tech"
     },
     {
-      "title": "Design & Dev @ Barangaroo",
-      "date": "2026-02-12T17:30:00+11:00",
-      "venue": "Barangaroo Reserve, Barangaroo",
-      "description": "Outdoor meetup on UX, prototyping, and design-to-dev workflows.",
-      "image": "https://images.unsplash.com/photo-1499914485622-a88fac5368ac?auto=format&fit=crop&w=600&q=80",
-      "embeddedMap": "https://www.google.com/maps?q=Barangaroo%20Reserve%20Sydney&output=embed"
-    },
-    {
-      "title": "AI on the Harbour",
-      "date": "2026-03-05T13:00:00+11:00",
-      "venue": "Museum of Contemporary Art, The Rocks",
-      "description": "Talks on practical AI/ML in web products, ethics, and deployments.",
-      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=600&q=80",
-      "embeddedMap": "https://www.google.com/maps?q=Museum%20of%20Contemporary%20Art%20Sydney&output=embed"
-    },
-    {
-      "title": "DevOps Down Under",
-      "date": "2026-04-16T09:00:00+10:00",
-      "venue": "Accor Stadium, Sydney Olympic Park",
-      "description": "CICD pipelines, observability, container security, and platform engineering.",
-      "image": "https://images.unsplash.com/photo-1593642532973-d31b6557fa68?auto=format&fit=crop&w=600&q=80",
-      "embeddedMap": "https://www.google.com/maps?q=Accor%20Stadium%20Sydney%20Olympic%20Park&output=embed"
-    },
-    {
-      "title": "Web Accessibility Day",
-      "date": "2026-05-08T09:30:00+10:00",
-      "venue": "State Library of NSW, Macquarie St",
-      "description": "Workshops and audits focused on WCAG, ARIA, and inclusive design.",
-      "image": "https://images.unsplash.com/photo-1586287011573-d2f8b7e7f2b2?auto=format&fit=crop&w=600&q=80",
-      "embeddedMap": "https://www.google.com/maps?q=State%20Library%20of%20New%20South%20Wales&output=embed"
-    },
-    {
-      "title": "JS in the Wild",
-      "date": "2026-06-18T10:00:00+10:00",
-      "venue": "Taronga Function Centre, Mosman",
-      "description": "Case studies of JS at scale in e-commerce, media, and IoT—plus zoo views.",
-      "image": "https://images.unsplash.com/photo-1503424886305-c283d32ef8cd?auto=format&fit=crop&w=600&q=80",
-      "embeddedMap": "https://www.google.com/maps?q=Taronga%20Function%20Centre%20Mosman&output=embed"
-    },
-    {
-      "title": "Cloud Sydney Meetup",
-      "date": "2026-07-09T18:00:00+10:00",
-      "venue": "Atlassian Sydney HQ, Haymarket",
-      "description": "Kubernetes, serverless, and cost-optimisation talks from cloud practitioners.",
-      "image": "https://images.unsplash.com/photo-1581093588401-8e78a126b851?auto=format&fit=crop&w=600&q=80",
-      "embeddedMap": "https://www.google.com/maps?q=Atlassian%20Sydney%20HQ&output=embed"
-    },
-    {
-      "title": "Hack the Harbour",
-      "date": "2026-08-01T08:30:00+10:00",
-      "venue": "Fishburners Sydney, Ultimo",
-      "description": "A weekend hackathon: teams build prototypes solving real local problems.",
-      "image": "https://images.unsplash.com/photo-1560264418-0da0a5efc34c?auto=format&fit=crop&w=600&q=80",
-      "embeddedMap": "https://www.google.com/maps?q=Fishburners%20Sydney&output=embed"
-    },
-    {
-      "title": "Sydney Robotics Expo",
-      "date": "2026-08-20T10:00:00+10:00",
-      "venue": "Australian National Maritime Museum, Darling Harbour",
-      "description": "Demonstrations of industrial and social robots with workshops for students.",
-      "image": "https://images.unsplash.com/photo-1581090194720-5b78a2d4f073?auto=format&fit=crop&w=600&q=80",
-      "embeddedMap": "https://www.google.com/maps?q=Australian%20National%20Maritime%20Museum&output=embed"
-    },
-    {
-      "title": "Cybersecurity Week Sydney",
-      "date": "2026-09-15T09:00:00+10:00",
-      "venue": "UNSW Sydney, Kensington",
-      "description": "Keynotes and panels on threat detection, penetration testing, and cyber law.",
-      "image": "https://images.unsplash.com/photo-1516321497487-e288fb19713f?auto=format&fit=crop&w=600&q=80",
-      "embeddedMap": "https://www.google.com/maps?q=UNSW%20Sydney%20Kensington&output=embed"
-    },
-    {
-      "title": "Digital Marketing Expo",
-      "date": "2026-10-10T09:00:00+11:00",
-      "venue": "The Star Event Centre, Pyrmont",
-      "description": "Latest trends in SEO, social ads, and content marketing strategies.",
-      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=600&q=80",
-      "embeddedMap": "https://www.google.com/maps?q=The%20Star%20Event%20Centre%20Pyrmont&output=embed"
-    },
-    {
-      "title": "Game Dev Sydney",
-      "date": "2026-11-02T10:00:00+11:00",
-      "venue": "Powerhouse Museum, Ultimo",
-      "description": "Indie and AAA developers share insights, plus hands-on Unity/Unreal labs.",
-      "image": "https://images.unsplash.com/photo-1517430816045-df4b7de01a54?auto=format&fit=crop&w=600&q=80",
-      "embeddedMap": "https://www.google.com/maps?q=Powerhouse%20Museum%20Sydney&output=embed"
-    },
-    {
-      "title": "Women in Tech Forum",
-      "date": "2026-11-28T09:30:00+11:00",
-      "venue": "Google Sydney, Pyrmont",
-      "description": "Celebrating women leaders in STEM with talks, panels, and mentorship.",
-      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=600&q=80",
-      "embeddedMap": "https://www.google.com/maps?q=Google%20Sydney&output=embed"
-    },
-    {
-      "title": "AR/VR Sydney Showcase",
-      "date": "2026-12-15T11:00:00+11:00",
-      "venue": "Carriageworks, Eveleigh",
-      "description": "Immersive tech demos, creator meetups, and AR/VR design workshops.",
-      "image": "https://images.unsplash.com/photo-1517036608935-8335ed370fa2?auto=format&fit=crop&w=600&q=80",
-      "embeddedMap": "https://www.google.com/maps?q=Carriageworks%20Eveleigh&output=embed"
-    },
-    {
-      "title": "Quantum Computing Meetup",
-      "date": "2027-01-22T14:00:00+11:00",
-      "venue": "CSIRO Data61, Marsfield",
-      "description": "Exploring quantum algorithms, simulators, and applications in industry.",
-      "image": "https://images.unsplash.com/photo-1581090700227-42a35ed31a00?auto=format&fit=crop&w=600&q=80",
-      "embeddedMap": "https://www.google.com/maps?q=CSIRO%20Data61%20Marsfield&output=embed"
-    }
+        "id": 6,
+        "title": "Design & Dev @ Barangaroo",
+        "date": "2026-02-12T17:30:00+11:00",
+        "venue": "Barangaroo Reserve, Barangaroo",
+        "description": "Design & Dev @ Barangaroo is an outdoor evening meetup bringing together UX designers, front-end developers, and digital product managers to explore collaboration between design and engineering. The event will open with a welcome address outlining current trends in cross-disciplinary workflows, followed by a keynote presentation on the importance of integrating design thinking into development cycles. Attendees can participate in breakout sessions on topics such as rapid prototyping, responsive design challenges, and accessibility-first design approaches. Demonstrations will showcase design handoff tools, component libraries, and browser-based prototyping platforms. The program will include a live collaborative design session where multidisciplinary teams work together to create a prototype, demonstrating iterative feedback processes. A panel discussion will explore best practices for bridging communication gaps between design and development teams, featuring case studies from agencies and product companies. Networking opportunities will be available throughout the evening, supported by an exhibition area featuring design tool vendors and local creative studios. The outdoor setting at Barangaroo Reserve will provide a relaxed environment conducive to informal discussions and idea sharing.",
+        "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80",
+        "embeddedMap": "https://www.google.com/maps?q=Barangaroo%20Reserve%20Sydney&output=embed",
+        "category": "Design"
+      },
+      {
+        "id": 7,
+        "title": "AI on the Harbour",
+        "date": "2026-03-05T13:00:00+11:00",
+        "venue": "Museum of Contemporary Art, The Rocks",
+        "description": "AI on the Harbour is a half-day professional forum focusing on the practical applications of artificial intelligence and machine learning in web and software products. The event will begin with a keynote address on emerging trends in AI deployment for real-world business scenarios, highlighting use cases in e-commerce, media, and data analytics. Attendees will gain insights from technical sessions on model training, natural language processing, and responsible AI governance. A dedicated session will explore ethical considerations, bias detection, and compliance with evolving regulations. Case study presentations from startups and enterprises will provide tangible examples of AI integration into existing platforms. Participants can attend workshops on implementing machine learning APIs, fine-tuning pre-trained models, and optimizing AI workloads in cloud environments. The networking segment will allow direct interaction with AI practitioners, data scientists, and solution architects. An exhibition space will host demonstrations from AI tool providers and research labs. The event will conclude with a panel discussion on the future of AI in product development and the skills developers need to stay relevant.",
+        "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=1200&q=80",
+        "embeddedMap": "https://www.google.com/maps?q=Museum%20of%20Contemporary%20Art%20Sydney&output=embed",
+        "category": "AI"
+      },
+      {
+        "id": 8,
+        "title": "DevOps Down Under",
+        "date": "2026-04-16T09:00:00+10:00",
+        "venue": "Accor Stadium, Sydney Olympic Park",
+        "description": "DevOps Down Under is a full-day conference dedicated to modern DevOps practices, tools, and cultural transformation. The agenda includes keynote sessions from industry leaders discussing the evolution of DevOps and its impact on software delivery pipelines. Technical tracks will address containerization strategies, CI/CD pipeline optimization, observability tooling, and security integration into development workflows. Attendees will be able to join hands-on labs to learn about Kubernetes deployment patterns, infrastructure-as-code practices, and automated testing frameworks. A vendor expo will showcase solutions for monitoring, incident response, and environment provisioning. Panel discussions will explore organizational change management, team structures, and the role of DevOps in hybrid and multi-cloud environments. Case studies from enterprises and public sector organizations will illustrate how DevOps adoption improves reliability, reduces deployment times, and enhances team collaboration. The conference will conclude with a roundtable session encouraging attendees to share lessons learned and future goals. Networking breaks will facilitate peer-to-peer learning and recruitment opportunities for DevOps engineers.",
+        "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1200&q=80",
+        "embeddedMap": "https://www.google.com/maps?q=Accor%20Stadium%20Sydney%20Olympic%20Park&output=embed",
+        "category": "Tech"
+      },
+      {
+        "id": 9,
+        "title": "Web Accessibility Day",
+        "date": "2026-05-08T09:30:00+10:00",
+        "venue": "State Library of NSW, Macquarie St",
+        "description": "Web Accessibility Day is a professional development event designed to advance knowledge and practice in creating accessible digital experiences. The program will begin with a keynote on the latest updates to the Web Content Accessibility Guidelines (WCAG) and their practical implications for web teams. Subsequent sessions will address accessible design patterns, semantic HTML, ARIA roles, and testing methodologies for different impairment types. Attendees will be able to participate in live accessibility audits of websites, guided by experienced practitioners. Workshops will focus on integrating accessibility considerations into design sprints, selecting accessible color palettes, and creating inclusive forms and navigation structures. A product showcase will feature tools for automated accessibility testing and assistive technology demonstrations. Case studies from organizations that have successfully implemented accessibility initiatives will provide real-world inspiration. Networking opportunities will connect participants with accessibility specialists, designers, and developers committed to inclusive practices. The event aims to equip attendees with actionable skills and resources to improve accessibility compliance and user experience for all audiences.",
+        "image": "https://images.unsplash.com/photo-1586287011573-d2f8b7e7f2b2?auto=format&fit=crop&w=1200&q=80",
+        "embeddedMap": "https://www.google.com/maps?q=State%20Library%20of%20New%20South%20Wales&output=embed",
+        "category": "Web"
+      },
+      {
+        "id": 10,
+        "title": "JS in the Wild",
+        "date": "2026-06-18T10:00:00+10:00",
+        "venue": "Taronga Function Centre, Mosman",
+        "description": "JS in the Wild is a one-day conference focused on large-scale, real-world JavaScript applications. The event will open with a keynote exploring the evolution of JavaScript frameworks and performance considerations for complex projects. Attendees can choose from technical sessions covering advanced topics such as module federation, micro-frontends, reactive programming, and real-time data handling. Workshops will provide practical experience in scaling Node.js backends, optimizing React rendering performance, and managing shared state in distributed applications. Case studies from retail, media, and IoT companies will highlight how JavaScript powers mission-critical platforms. A vendor expo will feature development tools, performance monitoring solutions, and JavaScript hosting platforms. Panel discussions will address team workflows, testing strategies, and long-term maintenance of JavaScript codebases. Networking breaks and a closing mixer will offer opportunities to connect with fellow developers, architects, and technical leads. The event aims to provide deep technical knowledge while fostering a collaborative learning environment for JavaScript professionals.",
+        "image": "https://images.unsplash.com/photo-1581092334504-32b7dbb879f8?auto=format&fit=crop&w=1200&q=80",
+        "embeddedMap": "https://www.google.com/maps?q=Taronga%20Function%20Centre%20Mosman&output=embed",
+        "category": "Web"
+      },
+      {
+        "id": 11,
+        "title": "Cloud Sydney Meetup",
+        "date": "2026-07-09T18:00:00+10:00",
+        "venue": "Atlassian Sydney HQ, Haymarket",
+        "description": "Cloud Sydney Meetup is an evening gathering for cloud engineers, architects, and technology leaders to discuss the latest developments in cloud computing. The event will open with a keynote presentation on multi-cloud strategy and the challenges of managing hybrid environments. Attendees will hear case studies from organizations implementing Kubernetes at scale, adopting serverless architectures, and optimizing costs in public cloud deployments. Breakout sessions will cover infrastructure-as-code workflows, cloud security best practices, and performance monitoring techniques. A dedicated technical workshop will provide hands-on experience with provisioning resources using Terraform and deploying workloads via CI/CD pipelines. The event will also feature a demo showcase from cloud service providers and tool vendors. Panel discussions will address skills demand in the cloud industry and the future of distributed computing. The meetup aims to promote peer learning and foster collaboration among professionals working in cloud infrastructure and platform engineering.",
+        "image": "https://images.unsplash.com/photo-1581093588401-8e78a126b851?auto=format&fit=crop&w=1200&q=80",
+        "embeddedMap": "https://www.google.com/maps?q=Atlassian%20Sydney%20HQ&output=embed",
+        "category": "Cloud"
+      },
+      {
+        "id": 12,
+        "title": "Hack the Harbour",
+        "date": "2026-08-01T08:30:00+10:00",
+        "venue": "Fishburners Sydney, Ultimo",
+        "description": "Hack the Harbour is a weekend hackathon bringing together developers, designers, and entrepreneurs to create innovative solutions for real-world challenges. The event will begin with team formation and problem statement briefings, followed by 48 hours of focused development. Mentors from technology, design, and business backgrounds will provide guidance throughout the hackathon. Participants will have access to APIs, datasets, and development tools to accelerate project delivery. Scheduled workshops will cover rapid prototyping, user testing methods, and pitching techniques. Meals and refreshments will be provided to support round-the-clock work. On the final day, teams will present their solutions to a panel of judges composed of investors, industry experts, and community leaders. Prizes will be awarded for categories such as Best Technical Implementation, Most Innovative Idea, and Social Impact. The event aims to encourage collaboration, foster startup culture, and highlight Sydney's talent in the tech community.",
+        "image": "https://images.unsplash.com/photo-1560264418-0da0a5efc34c?auto=format&fit=crop&w=1200&q=80",
+        "embeddedMap": "https://www.google.com/maps?q=Fishburners%20Sydney&output=embed",
+        "category": "Code"
+      },
+      {
+        "id": 13,
+        "title": "Sydney Robotics Expo",
+        "date": "2026-08-20T10:00:00+10:00",
+        "venue": "Australian National Maritime Museum, Darling Harbour",
+        "description": "Sydney Robotics Expo is a public exhibition and professional networking event showcasing the latest advancements in robotics. The day will include live demonstrations of industrial robots, autonomous vehicles, and service robots designed for healthcare, hospitality, and logistics. Exhibitors will present new robotics hardware, control systems, and AI-driven automation solutions. Technical seminars will cover topics such as sensor integration, computer vision applications, and robot safety standards. A dedicated education zone will feature workshops for students, introducing programming and robotics assembly. Panel discussions will address the future of robotics in Australia, workforce implications, and the role of robotics in sustainable manufacturing. Networking opportunities will be available for engineers, researchers, and investors. The event aims to inspire innovation, facilitate industry partnerships, and promote knowledge sharing in the field of robotics.",
+        "image": "https://images.unsplash.com/photo-1581090194720-5b78a2d4f073?auto=format&fit=crop&w=1200&q=80",
+        "embeddedMap": "https://www.google.com/maps?q=Australian%20National%20Maritime%20Museum&output=embed",
+        "category": "Tech"
+      },
+      {
+        "id": 14,
+        "title": "Cybersecurity Week Sydney",
+        "date": "2026-09-15T09:00:00+10:00",
+        "venue": "UNSW Sydney, Kensington",
+        "description": "Cybersecurity Week Sydney is a five-day series of workshops, panels, and keynote sessions focused on protecting digital infrastructure and data. The program will include expert presentations on penetration testing, incident response planning, and compliance with international cybersecurity regulations. Attendees can participate in hands-on labs covering network defense strategies, secure coding practices, and cloud security configuration. Industry leaders will share insights on threat intelligence, zero-trust architecture, and AI-driven security monitoring. A capture-the-flag (CTF) competition will challenge participants to solve real-world security puzzles and vulnerabilities. The event will also feature a cybersecurity careers fair, connecting job seekers with hiring companies. Panel discussions will explore the role of policy and governance in shaping a secure digital future. The week aims to equip attendees with practical skills, raise awareness of current threats, and foster collaboration between academia, government, and industry.",
+        "image": "https://images.unsplash.com/photo-1516321497487-e288fb19713f?auto=format&fit=crop&w=1200&q=80",
+        "embeddedMap": "https://www.google.com/maps?q=UNSW%20Sydney%20Kensington&output=embed",
+        "category": "Tech"
+      },
+      {
+        "id": 15,
+        "title": "Digital Marketing Expo",
+        "date": "2026-10-10T09:00:00+11:00",
+        "venue": "The Star Event Centre, Pyrmont",
+        "description": "Digital Marketing Expo is a one-day event bringing together marketers, content creators, and digital strategists to explore the latest trends in online marketing. The agenda will feature keynote talks on consumer behavior, content personalization, and multi-channel campaign management. Breakout sessions will address SEO best practices, paid advertising strategies, influencer partnerships, and data-driven decision-making. Workshops will offer practical guidance on creating high-converting landing pages, developing social media content calendars, and optimizing email campaigns. A vendor expo will showcase marketing automation platforms, analytics tools, and creative production services. Attendees will have opportunities to participate in networking sessions and arrange one-on-one consultations with marketing experts. The event aims to provide actionable strategies and tools to enhance digital marketing performance across industries.",
+        "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+        "embeddedMap": "https://www.google.com/maps?q=The%20Star%20Event%20Centre%20Pyrmont&output=embed",
+        "category": "Marketing"
+      },
+      {
+        "id": 16,
+        "title": "Game Dev Sydney",
+        "date": "2026-11-02T10:00:00+11:00",
+        "venue": "Powerhouse Museum, Ultimo",
+        "description": "Game Dev Sydney is a professional gathering for game developers, designers, artists, and publishers. The event will include keynote sessions from leading figures in both indie and AAA game studios, focusing on design trends, monetization strategies, and emerging technologies in game development. Technical tracks will cover graphics optimization, multiplayer networking, and AI-driven game mechanics. A dedicated art and design track will explore concept art pipelines, 3D modeling, and animation workflows. Workshops will provide hands-on experience with game engines such as Unity and Unreal Engine, including tips for cross-platform publishing. An expo area will showcase new development tools, hardware, and VR/AR equipment. Pitch sessions will allow indie developers to present their projects to publishers and investors. The event aims to support knowledge sharing, professional growth, and collaboration within the gaming industry.",
+        "image": "https://images.unsplash.com/photo-1517430816045-df4b7de01a54?auto=format&fit=crop&w=1200&q=80",
+        "embeddedMap": "https://www.google.com/maps?q=Powerhouse%20Museum%20Sydney&output=embed",
+        "category": "Tech"
+      },
+      {
+        "id": 17,
+        "title": "Women in Tech Forum",
+        "date": "2026-11-28T09:30:00+11:00",
+        "venue": "Google Sydney, Pyrmont",
+        "description": "Women in Tech Forum is a day-long conference celebrating women leaders, innovators, and changemakers in the STEM fields. The agenda will feature keynote speeches from female executives and technical leaders across various industries, panel discussions on diversity in technology, and workshops on leadership development. Sessions will explore mentorship, career advancement, and strategies for increasing representation in engineering, data science, and product management. Networking breaks will provide opportunities for attendees to connect with peers, recruiters, and potential mentors. A startup pitch showcase will highlight women-led technology ventures. The forum aims to foster collaboration, inspire the next generation of women in technology, and share practical approaches to achieving gender equity in tech workplaces.",
+        "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+        "embeddedMap": "https://www.google.com/maps?q=Google%20Sydney&output=embed",
+        "category": "Business"
+      },
+      {
+        "id": 18,
+        "title": "AR/VR Sydney Showcase",
+        "date": "2026-12-15T11:00:00+11:00",
+        "venue": "Carriageworks, Eveleigh",
+        "description": "AR/VR Sydney Showcase is an industry-focused event highlighting advancements in augmented and virtual reality technologies. The program will include live demonstrations of immersive experiences, from training simulations and architectural visualizations to interactive art installations. Technical sessions will address AR/VR content creation workflows, hardware performance optimization, and user experience considerations. Development workshops will provide guidance on working with popular AR/VR platforms, including ARKit, ARCore, and major VR headsets. Exhibitors will present the latest devices, motion tracking solutions, and software tools. Panel discussions will explore market trends, monetization opportunities, and the role of AR/VR in sectors such as healthcare, education, and entertainment. The event aims to connect developers, designers, and business leaders to explore the future of immersive technology.",
+        "image": "https://images.unsplash.com/photo-1517036608935-8335ed370fa2?auto=format&fit=crop&w=1200&q=80",
+        "embeddedMap": "https://www.google.com/maps?q=Carriageworks%20Eveleigh&output=embed",
+        "category": "Tech"
+      },
+      {
+        "id": 19,
+        "title": "Quantum Computing Meetup",
+        "date": "2027-01-22T14:00:00+11:00",
+        "venue": "CSIRO Data61, Marsfield",
+        "description": "Quantum Computing Meetup is an afternoon session for researchers, engineers, and technology professionals exploring quantum computing's applications and capabilities. The event will open with a keynote on quantum algorithm design, followed by technical presentations on quantum simulation, error correction techniques, and hardware architectures. Case studies will highlight real-world use cases in cryptography, optimization, and machine learning. Attendees will have opportunities to participate in a hands-on lab session using cloud-based quantum computing platforms. A panel discussion will address the challenges of scaling quantum hardware, building software tools, and developing a skilled workforce for the quantum era. The meetup aims to foster knowledge exchange and encourage collaboration between academia, startups, and established technology companies.",
+        "image": "https://images.unsplash.com/photo-1581090700227-42a35ed31a00?auto=format&fit=crop&w=1200&q=80",
+        "embeddedMap": "https://www.google.com/maps?q=CSIRO%20Data61%20Marsfield&output=embed",
+        "category": "Tech"
+      },
+      {
+        "id": 20,
+        "title": "Blockchain for Business",
+        "date": "2027-02-14T09:30:00+11:00",
+        "venue": "Sydney Convention Centre, Darling Harbour",
+        "description": "Blockchain for Business is a one-day conference designed for business leaders, developers, and policymakers interested in blockchain applications. The event will feature keynote presentations on enterprise blockchain adoption, supply chain transparency, and digital identity solutions. Technical sessions will cover smart contract development, interoperability between blockchain networks, and security considerations. Industry panels will share insights on regulatory compliance, tokenization strategies, and blockchain-based financial products. A startup showcase will present innovative blockchain solutions across various industries, from agriculture to healthcare. Attendees will have opportunities to network with technology providers, investors, and government representatives. The conference aims to provide a balanced perspective on blockchain’s business value, practical implementation, and long-term potential.",
+        "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=80",
+        "embeddedMap": "https://www.google.com/maps?q=Sydney%20Convention%20Centre%20Darling%20Harbour&output=embed",
+        "category": "Business"
+      }
   ]

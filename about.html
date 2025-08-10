@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--
+    About Page (about.html)
+    - Static page describing the project, team roles, highlights, challenges, and asset references.
+    - Uses Bootstrap 5 via CDN (no build tools required).
+    - Replace all PLACEHOLDER names/IDs and adjust text to match your actual team and work.
+  -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>About • Community Event Management</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link href="index.css" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark border-bottom border-secondary fixed-top">
+    <div class="container-fluid">
+        <!-- Logo -->
+        <a class="navbar-brand fw-semibold" href="index.html">Community Event Management</a>
+    
+        <!-- Nav items (aligned right with ms-auto) -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <!-- Active page -->
+            <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+    
+            <li class="nav-item">
+                <a class="nav-link active" href="about.html">About</a>
+            </li>
+    
+            <!-- Right-side button -->
+            <li class="nav-item ms-lg-2">
+                <a class="btn btn-danger" onclick="logout()">Logout</a>
+            </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+  <!-- Main Content -->
+  <main class="container margin-top-45">
+    <!-- Page Header -->
+    <header class="mb-4">
+      <h1 class="h3">About This Project</h1>
+      <p class="text-muted mb-0">An overview of our Community Event Management web application, our team, and how we built it.</p>
+    </header>
+
+    <!-- Team Members -->
+    <section class="mb-5">
+      <h2 class="h5">Team & Student IDs</h2>
+      <!-- Replace placeholder names/IDs with your real details -->
+      <div class="table-responsive">
+        <table class="table table-striped align-middle">
+          <thead>
+            <tr>
+              <th scope="col">Name</th>
+              <th scope="col" style="width: 220px;">Student ID</th>
+              <th scope="col">Role</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><!-- NAME --><strong>Alex Johnson</strong></td>
+              <td><!-- ID -->s1234567</td>
+              <td>Frontend Lead (HTML/Bootstrap), UI structure, navigation</td>
+            </tr>
+            <tr>
+              <td><strong>Priya Sharma</strong></td>
+              <td>s2345678</td>
+              <td>JavaScript & Data (fetch/pagination/search/filters)</td>
+            </tr>
+            <tr>
+              <td><strong>William Lee</strong></td>
+              <td>s3456789</td>
+              <td>Auth & LocalStorage (signup/login/session)</td>
+            </tr>
+            <tr>
+              <td><strong>Sofia Martinez</strong></td>
+              <td>s4567890</td>
+              <td>Content & Assets (events JSON, images, maps), documentation</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- Work Distribution and Roles -->
+    <section class="mb-5">
+      <h2 class="h5">Work Distribution & Roles</h2>
+      <p>
+        Our group divided the application into clear functional areas to streamline development. Alex focused on building a consistent layout using HTML and Bootstrap, including the fixed navigation bar, responsive two-column layout, and reusable card components. Priya implemented the event data pipeline using JSON, wrote the asynchronous fetching logic, and added client-side sorting, searching, category filtering, and pagination to keep the interface responsive and maintainable.
+      </p>
+      <p>
+        William implemented the lightweight authentication system using browser <code>localStorage</code>, including sign-up, login, hashed password storage with the Web Crypto API (SHA-256), session handling, route guarding, and logout. Sofia prepared the event dataset and asset references, mapped images from Unsplash to topics, verified Google Maps embeds, and ensured that event descriptions followed a clear, factual style suitable for listings and a detailed event details page.
+      </p>
+    </section>
+
+    <!-- Project Highlights -->
+    <section class="mb-5">
+      <h2 class="h5">Project Highlights</h2>
+      <p>
+        A key highlight is the dynamic events listing powered by a simple JSON data source and client-side rendering. The interface supports fast text search, category-based filtering, date range filtering, and intuitive pagination (five items per page) without requiring a backend. We also added “Read more” deep links from each card to a dedicated event details page using a query parameter (<code>?id=</code>) to fetch and display the correct record.
+      </p>
+      <p>
+        Another highlight is the approachable, Bootstrap-based design that remains responsive across breakpoints. We adopted a uniform card layout with image cropping via <code>object-fit</code> for clean visual consistency. The authentication flow demonstrates a fully front-end approach to storing user sign-ups and sessions, including hashed passwords, while keeping the code simple and easy to reason about for learning purposes.
+      </p>
+    </section>
+
+    <!-- Challenges Faced -->
+    <section class="mb-5">
+      <h2 class="h5">Challenges Faced</h2>
+      <p>
+        One challenge was coordinating state between search, filters, sorting, and pagination. We addressed this by centralizing the render cycle: all user actions flow into a single render function that applies sorting and then paginates the filtered dataset. Another challenge was balancing a fixed viewport layout (to keep the pagination visible) with a scrollable events area; we resolved this using a constrained <code>vh</code>-based height and a sticky pagination bar inside the scroll container.
+      </p>
+      <p>
+        Implementing a front-end–only authentication system also required careful handling of password hashing and session state. We used the Web Crypto API for hashing and isolated session data to a dedicated <code>localStorage</code> key. Since this is a learning project without a server, we documented the limitations (e.g., client-side security constraints) and ensured the UX communicates expected behavior clearly.
+      </p>
+    </section>
+
+    <!-- References for Assets -->
+    <section class="mb-5">
+      <h2 class="h5">Asset & Reference List</h2>
+      <ul class="list-unstyled">
+        <li class="mb-2">
+          <strong>Images:</strong> Unsplash (free stock photos). Example attributions used in events dataset:
+          <ul>
+            <li><a href="https://unsplash.com/photos/photo-1504384308090-c894fdcc538d" target="_blank" rel="noopener">Unsplash — photo-1504384308090-c894fdcc538d</a></li>
+            <li><a href="https://unsplash.com/photos/photo-1522202176988-66273c2fd55f" target="_blank" rel="noopener">Unsplash — photo-1522202176988-66273c2fd55f</a></li>
+            <li><a href="https://unsplash.com/photos/photo-1535223289827-42f1e9919769" target="_blank" rel="noopener">Unsplash — photo-1535223289827-42f1e9919769</a></li>
+            <li><a href="https://unsplash.com/photos/photo-1519389950473-47ba0277781c" target="_blank" rel="noopener">Unsplash — photo-1519389950473-47ba0277781c</a></li>
+            <li><a href="https://unsplash.com" target="_blank" rel="noopener">Additional images sourced from Unsplash search</a></li>
+          </ul>
+        </li>
+        <li class="mb-2">
+          <strong>Framework:</strong> <a href="https://getbootstrap.com/" target="_blank" rel="noopener">Bootstrap 5</a> via CDN.
+        </li>
+        <li class="mb-2">
+          <strong>Maps:</strong> Google Maps Embed (query-string based <code>https://www.google.com/maps?q=...&amp;output=embed</code>) used per venue.
+        </li>
+        <li class="mb-2">
+          <strong>Icons & Utilities:</strong> Bootstrap’s built-in classes and utilities; no third-party icon sets.
+        </li>
+        <li class="mb-2">
+          <strong>Fonts:</strong> System fonts provided by browser/OS and Bootstrap defaults (no custom font CDN).
+        </li>
+        <li class="mb-2">
+          <strong>Data:</strong> Local <code>data/events.json</code> curated by the team with categories, images, and descriptions.
+        </li>
+      </ul>
+      <!-- Tip to assessor: exact image URLs/IDs are listed inside data/events.json -->
+    </section>
+
+    <!-- Back Link -->
+    <div class="mb-5">
+      <a href="index.html" class="btn btn-secondary">← Back to Events</a>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="border-top py-3 bg-light">
+    <div class="container small text-muted">
+      <div class="d-flex justify-content-between align-items-center">
+        <span>© <span id="year"></span> Community Event Management</span>
+        <span>Built with HTML, Bootstrap, and JavaScript</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS (Bundle) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Tiny script to set current year -->
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

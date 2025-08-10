@@ -1,0 +1,101 @@
+<!-- eventDetails.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Event Details</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link href="index.css" rel="stylesheet" />
+</head>
+<body class="bg-light">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark border-bottom border-secondary fixed-top">
+        <div class="container-fluid">
+            <!-- Logo -->
+            <a class="navbar-brand fw-semibold" href="index.html">Community Event Management</a>
+        
+            <!-- Nav items (aligned right with ms-auto) -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <!-- Active page -->
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+        
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+        
+                <!-- Right-side button -->
+                <li class="nav-item ms-lg-2">
+                    <a class="btn btn-danger" onclick="logout()">Logout</a>
+                </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+  <main class="container py-4 margin-top-45">
+    <a href="index.html" class="btn btn-link mb-3">&larr; Back to events</a>
+
+    <!-- Title + meta -->
+    <h1 id="eventTitle" class="mb-2">Event Title</h1>
+    <div class="text-muted mb-4">
+      <span id="eventDate">Date &amp; Time</span> &middot; <span id="eventVenue">Venue</span>
+    </div>
+
+    <div class="row g-4">
+      <!-- Left column: image, description, actions -->
+      <div class="col-lg-7">
+        <!-- Big image -->
+        <div id="imageContainer" class="mb-3">
+          <!-- populated via JS with innerHTML -->
+        </div>
+
+        <!-- Description -->
+        <div class="card shadow-sm mb-3">
+          <div class="card-body">
+            <h5 class="card-title">About this event</h5>
+            <p id="eventDescription" class="mb-0">Full description will appear here.</p>
+          </div>
+        </div>
+
+        <!-- Actions (Register button etc.) -->
+        <div id="actionContainer" class="d-grid d-sm-flex gap-2">
+          <!-- populated via JS with innerHTML -->
+        </div>
+      </div>
+
+      <!-- Right column: map + attendees -->
+      <div class="col-lg-5">
+        <!-- Map -->
+        <div class="card shadow-sm mb-3">
+          <div class="card-body">
+            <h5 class="card-title">Location</h5>
+            <div id="mapContainer">
+              <!-- populated via JS with innerHTML -->
+            </div>
+          </div>
+        </div>
+
+        <!-- Attendees (optional; can fill later) -->
+        <div class="card shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title mb-3">Attendees</h5>
+            <ul id="attendeesList" class="list-unstyled mb-0">
+              <!-- you can populate later if needed -->
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="eventDetails.js"></script>
+  <script src="events.js"></script>
+  <script src="registerEvent.js"></script>
+</body>
+</html>

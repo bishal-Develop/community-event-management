@@ -24,15 +24,11 @@
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                 <!-- Active page -->
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                 </li>
         
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Events</a>
-                </li>
-        
-                <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="about.html">About</a>
                 </li>
         
                 <!-- Right-side button -->
@@ -55,7 +51,6 @@
                 <!-- Title -->
                 <div class="d-flex align-items-end justify-content-between mb-3">
                   <h1 class="h4 mb-0">Upcoming Events</h1>
-                  <small id="eventsCount" class="text-muted"></small>
                 </div>
     
                 <!-- Search bar -->
@@ -70,45 +65,67 @@
                 </div>
     
                 <!-- Events container (populated by events.js) -->
-                <div id="eventsContainer" class="vstack gap-3"></div>
+                <!-- Events container (scrollable) + pagination -->
+                <div id="eventsScroll" class="d-flex flex-column">
+                    <div id="eventsContainer" class="vstack gap-3 flex-grow-1 card shadow-sm p-2" style="height: calc(100vh - 250px); overflow:auto;"></div>
+
+                    <!-- Pagination -->
+                    <nav class="mt-3">
+                        <ul id="pagination" class="pagination justify-content-center mb-2"></ul>
+                    </nav>
+                </div>
               </div>
     
               <!-- Right column: 30% (filters) -->
-              <aside class="col-12 col-lg-5" style="flex: 0 0 30%; max-width: 30%;">
-                <div class="card shadow-sm margin-top-45">
-                  <div class="card-header">
-                    <strong>Filters</strong>
-                  </div>
-                  <div class="card-body">
-                    <!-- Venue filters (done by events.js) -->
-                    <div class="mb-3">
-                        <label for="venueFilter" class="form-label fw-semibold">Venue</label>
-                        <select id="venueFilter" class="form-select" onchange="applyVenueFilters()">
-                          <option value="">All venues</option>
-                        </select>
-                    </div>
-    
-                    <!-- Date filters -->
-                    <div class="mb-3">
-                        <label class="form-label fw-semibold">Date Range</label>
-                        <div class="input-group">
-                            <input type="date" id="dateFrom" class="form-control" onchange="applyDateFilters()">
-                            <span class="input-group-text">to</span>
-                            <input type="date" id="dateTo" class="form-control" onchange="applyDateFilters()">
-                        </div>
-                    </div>
-    
-                    <!-- Reset filters -->
-                    <button 
-                        id="resetFiltersBtn" 
-                        class="btn btn-outline-secondary w-100"
-                        onclick="resetFilters()"
-                    >
-                        Reset Filters
-                    </button>
-                  </div>
+              <!-- Right column: 30% (sort + filters) -->
+        <aside class="col-12 col-lg-5" style="flex: 0 0 30%; max-width: 30%;">
+            <!-- Sort card -->
+            <div class="card shadow-sm margin-top-45 mb-3">
+            <div class="card-header">
+                <strong>Sort</strong>
+            </div>
+            <div class="card-body">
+                <label for="sortSelect" class="form-label fw-semibold">Order by</label>
+                <select id="sortSelect" class="form-select" onchange="applySort()">
+                <option value="dateAsc" selected>Date — Soonest first</option>
+                <option value="dateDesc">Date — Latest first</option>
+                <option value="titleAsc">Title — A to Z</option>
+                <option value="titleDesc">Title — Z to A</option>
+                </select>
+            </div>
+            </div>
+        
+            <!-- Filters card -->
+            <div class="card shadow-sm">
+            <div class="card-header">
+                <strong>Filters</strong>
+            </div>
+            <div class="card-body">
+                <!-- Category Filters -->
+                <div class="mb-3">
+                    <label for="categoryFilter" class="form-label fw-semibold">Category</label>
+                    <select id="categoryFilter" class="form-select" onchange="applyCategoryFilters()">
+                        <option value="">All categories</option>
+                    </select>
                 </div>
-              </aside>
+        
+                <!-- Date range -->
+                <div class="mb-3">
+                <label class="form-label fw-semibold">Date Range</label>
+                <div class="input-group">
+                    <input type="date" id="dateFrom" class="form-control" onchange="applyDateFilters()">
+                    <span class="input-group-text">to</span>
+                    <input type="date" id="dateTo" class="form-control" onchange="applyDateFilters()">
+                </div>
+                </div>
+        
+                <!-- Reset filters -->
+                <button id="resetFiltersBtn" class="btn btn-outline-secondary w-100" onclick="resetFilters()">
+                Reset Filters
+                </button>
+            </div>
+            </div>
+        </aside>
             </div>
           </div>
         </div>
@@ -122,6 +139,7 @@
 
     <!---Javascript files-->
     <script src="events.js"></script>
+    <script src="registerEvent.js"></script>
 
     <!-- Cannot use app intil logged in -->
     <script src="auth.js"></script>
