@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Event Management</title>
+
+    <!-- Bootstrap CSS Added -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link href="index.css" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark border-bottom border-secondary fixed-top">
+        <div class="container-fluid">
+            <!-- Logo -->
+            <a class="navbar-brand fw-semibold" href="#">Community Event Management</a>
+        
+            <!-- Nav items (aligned right with ms-auto) -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <!-- Active page -->
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+        
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Events</a>
+                </li>
+        
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+        
+                <!-- Right-side button -->
+                <li class="nav-item ms-lg-2">
+                    <a class="btn btn-danger" onclick="logout()">Logout</a>
+                </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container py-8 padding-top-75">
+        <!-- Two-column layout: 70% (content) / 30% (filters) -->
+        <div class="row g-4">
+          <!-- Left column: 70% -->
+          <div class="col-12" style="flex: 0 0 100%; max-width: 100%;">
+            <!-- On large screens apply 70%/30% -->
+            <div class="row">
+              <div class="col-12 col-lg-7" style="flex: 0 0 70%; max-width: 70%;">
+                <!-- Title -->
+                <div class="d-flex align-items-end justify-content-between mb-3">
+                  <h1 class="h4 mb-0">Upcoming Events</h1>
+                  <small id="eventsCount" class="text-muted"></small>
+                </div>
+    
+                <!-- Search bar -->
+                <div class="mb-3">
+                  <input 
+                    id="searchInput" 
+                    type="search" 
+                    class="form-control"
+                    placeholder="Search by title"
+                    oninput="searchEvents()"
+                />
+                </div>
+    
+                <!-- Events container (populated by events.js) -->
+                <div id="eventsContainer" class="vstack gap-3"></div>
+              </div>
+    
+              <!-- Right column: 30% (filters) -->
+              <aside class="col-12 col-lg-5" style="flex: 0 0 30%; max-width: 30%;">
+                <div class="card shadow-sm margin-top-45">
+                  <div class="card-header">
+                    <strong>Filters</strong>
+                  </div>
+                  <div class="card-body">
+                    <!-- Venue filters (done by events.js) -->
+                    <div class="mb-3">
+                        <label for="venueFilter" class="form-label fw-semibold">Venue</label>
+                        <select id="venueFilter" class="form-select" onchange="applyVenueFilters()">
+                          <option value="">All venues</option>
+                        </select>
+                    </div>
+    
+                    <!-- Date filters -->
+                    <div class="mb-3">
+                        <label class="form-label fw-semibold">Date Range</label>
+                        <div class="input-group">
+                            <input type="date" id="dateFrom" class="form-control" onchange="applyDateFilters()">
+                            <span class="input-group-text">to</span>
+                            <input type="date" id="dateTo" class="form-control" onchange="applyDateFilters()">
+                        </div>
+                    </div>
+    
+                    <!-- Reset filters -->
+                    <button 
+                        id="resetFiltersBtn" 
+                        class="btn btn-outline-secondary w-100"
+                        onclick="resetFilters()"
+                    >
+                        Reset Filters
+                    </button>
+                  </div>
+                </div>
+              </aside>
+            </div>
+          </div>
+        </div>
+      </main>
+    <!-- Bootstrap JS Added -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap for dialogs, popovers, dropdowns -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.min.js" integrity="sha384-7qAoOXltbVP82dhxHAUje59V5r2YsVfBafyUDxEdApLPmcdhBPg1DKg1ERo0BZlK" crossorigin="anonymous"></script>
+
+    <!---Javascript files-->
+    <script src="events.js"></script>
+
+    <!-- Cannot use app intil logged in -->
+    <script src="auth.js"></script>
+    <script>
+        // Call this as soon as the page loads to protect it
+        requireAuth();
+    </script>
+</body>
+</html>

@@ -1,0 +1,154 @@
+[
+    {
+      "title": "Sydney Tech Summit",
+      "date": "2025-09-18T09:00:00+10:00",
+      "venue": "ICC Sydney, Darling Harbour",
+      "description": "A two-day conference on modern web, cloud, and AI tooling for developers.",
+      "image": "https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&w=600&q=80",
+      "embeddedMap": "https://www.google.com/maps?q=ICC%20Sydney%20Darling%20Harbour&output=embed"
+    },
+    {
+      "title": "Harbour City Startup Night",
+      "date": "2025-10-07T18:30:00+11:00",
+      "venue": "Sydney Startup Hub, Wynyard",
+      "description": "Pitches, lightning talks, and networking with founders and VCs.",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=600&q=80",
+      "embeddedMap": "https://www.google.com/maps?q=Sydney%20Startup%20Hub&output=embed"
+    },
+    {
+      "title": "Open Source Festival",
+      "date": "2025-11-15T10:00:00+11:00",
+      "venue": "Sydney Town Hall, George St",
+      "description": "Celebrate open source with workshops, maintainers’ panels, and community booths.",
+      "image": "https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=600&q=80",
+      "embeddedMap": "https://www.google.com/maps?q=Sydney%20Town%20Hall&output=embed"
+    },
+    {
+      "title": "Front-End Masters Live",
+      "date": "2025-12-04T09:30:00+11:00",
+      "venue": "UTS Great Hall, Ultimo",
+      "description": "Deep dives into performance, accessibility, design systems, and CSS architecture.",
+      "image": "https://images.unsplash.com/photo-1515165562835-c9327686e52e?auto=format&fit=crop&w=600&q=80",
+      "embeddedMap": "https://www.google.com/maps?q=UTS%20Great%20Hall%20Ultimo&output=embed"
+    },
+    {
+      "title": "Summer Code Camp",
+      "date": "2026-01-20T09:00:00+11:00",
+      "venue": "University of Sydney, Camperdown",
+      "description": "Hands-on bootcamp for JavaScript, TypeScript, and Web APIs with project mentoring.",
+      "image": "https://images.unsplash.com/photo-1485217988980-11786ced9454?auto=format&fit=crop&w=600&q=80",
+      "embeddedMap": "https://www.google.com/maps?q=University%20of%20Sydney%20Camperdown&output=embed"
+    },
+    {
+      "title": "Design & Dev @ Barangaroo",
+      "date": "2026-02-12T17:30:00+11:00",
+      "venue": "Barangaroo Reserve, Barangaroo",
+      "description": "Outdoor meetup on UX, prototyping, and design-to-dev workflows.",
+      "image": "https://images.unsplash.com/photo-1499914485622-a88fac5368ac?auto=format&fit=crop&w=600&q=80",
+      "embeddedMap": "https://www.google.com/maps?q=Barangaroo%20Reserve%20Sydney&output=embed"
+    },
+    {
+      "title": "AI on the Harbour",
+      "date": "2026-03-05T13:00:00+11:00",
+      "venue": "Museum of Contemporary Art, The Rocks",
+      "description": "Talks on practical AI/ML in web products, ethics, and deployments.",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=600&q=80",
+      "embeddedMap": "https://www.google.com/maps?q=Museum%20of%20Contemporary%20Art%20Sydney&output=embed"
+    },
+    {
+      "title": "DevOps Down Under",
+      "date": "2026-04-16T09:00:00+10:00",
+      "venue": "Accor Stadium, Sydney Olympic Park",
+      "description": "CICD pipelines, observability, container security, and platform engineering.",
+      "image": "https://images.unsplash.com/photo-1593642532973-d31b6557fa68?auto=format&fit=crop&w=600&q=80",
+      "embeddedMap": "https://www.google.com/maps?q=Accor%20Stadium%20Sydney%20Olympic%20Park&output=embed"
+    },
+    {
+      "title": "Web Accessibility Day",
+      "date": "2026-05-08T09:30:00+10:00",
+      "venue": "State Library of NSW, Macquarie St",
+      "description": "Workshops and audits focused on WCAG, ARIA, and inclusive design.",
+      "image": "https://images.unsplash.com/photo-1586287011573-d2f8b7e7f2b2?auto=format&fit=crop&w=600&q=80",
+      "embeddedMap": "https://www.google.com/maps?q=State%20Library%20of%20New%20South%20Wales&output=embed"
+    },
+    {
+      "title": "JS in the Wild",
+      "date": "2026-06-18T10:00:00+10:00",
+      "venue": "Taronga Function Centre, Mosman",
+      "description": "Case studies of JS at scale in e-commerce, media, and IoT—plus zoo views.",
+      "image": "https://images.unsplash.com/photo-1503424886305-c283d32ef8cd?auto=format&fit=crop&w=600&q=80",
+      "embeddedMap": "https://www.google.com/maps?q=Taronga%20Function%20Centre%20Mosman&output=embed"
+    },
+    {
+      "title": "Cloud Sydney Meetup",
+      "date": "2026-07-09T18:00:00+10:00",
+      "venue": "Atlassian Sydney HQ, Haymarket",
+      "description": "Kubernetes, serverless, and cost-optimisation talks from cloud practitioners.",
+      "image": "https://images.unsplash.com/photo-1581093588401-8e78a126b851?auto=format&fit=crop&w=600&q=80",
+      "embeddedMap": "https://www.google.com/maps?q=Atlassian%20Sydney%20HQ&output=embed"
+    },
+    {
+      "title": "Hack the Harbour",
+      "date": "2026-08-01T08:30:00+10:00",
+      "venue": "Fishburners Sydney, Ultimo",
+      "description": "A weekend hackathon: teams build prototypes solving real local problems.",
+      "image": "https://images.unsplash.com/photo-1560264418-0da0a5efc34c?auto=format&fit=crop&w=600&q=80",
+      "embeddedMap": "https://www.google.com/maps?q=Fishburners%20Sydney&output=embed"
+    },
+    {
+      "title": "Sydney Robotics Expo",
+      "date": "2026-08-20T10:00:00+10:00",
+      "venue": "Australian National Maritime Museum, Darling Harbour",
+      "description": "Demonstrations of industrial and social robots with workshops for students.",
+      "image": "https://images.unsplash.com/photo-1581090194720-5b78a2d4f073?auto=format&fit=crop&w=600&q=80",
+      "embeddedMap": "https://www.google.com/maps?q=Australian%20National%20Maritime%20Museum&output=embed"
+    },
+    {
+      "title": "Cybersecurity Week Sydney",
+      "date": "2026-09-15T09:00:00+10:00",
+      "venue": "UNSW Sydney, Kensington",
+      "description": "Keynotes and panels on threat detection, penetration testing, and cyber law.",
+      "image": "https://images.unsplash.com/photo-1516321497487-e288fb19713f?auto=format&fit=crop&w=600&q=80",
+      "embeddedMap": "https://www.google.com/maps?q=UNSW%20Sydney%20Kensington&output=embed"
+    },
+    {
+      "title": "Digital Marketing Expo",
+      "date": "2026-10-10T09:00:00+11:00",
+      "venue": "The Star Event Centre, Pyrmont",
+      "description": "Latest trends in SEO, social ads, and content marketing strategies.",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=600&q=80",
+      "embeddedMap": "https://www.google.com/maps?q=The%20Star%20Event%20Centre%20Pyrmont&output=embed"
+    },
+    {
+      "title": "Game Dev Sydney",
+      "date": "2026-11-02T10:00:00+11:00",
+      "venue": "Powerhouse Museum, Ultimo",
+      "description": "Indie and AAA developers share insights, plus hands-on Unity/Unreal labs.",
+      "image": "https://images.unsplash.com/photo-1517430816045-df4b7de01a54?auto=format&fit=crop&w=600&q=80",
+      "embeddedMap": "https://www.google.com/maps?q=Powerhouse%20Museum%20Sydney&output=embed"
+    },
+    {
+      "title": "Women in Tech Forum",
+      "date": "2026-11-28T09:30:00+11:00",
+      "venue": "Google Sydney, Pyrmont",
+      "description": "Celebrating women leaders in STEM with talks, panels, and mentorship.",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=600&q=80",
+      "embeddedMap": "https://www.google.com/maps?q=Google%20Sydney&output=embed"
+    },
+    {
+      "title": "AR/VR Sydney Showcase",
+      "date": "2026-12-15T11:00:00+11:00",
+      "venue": "Carriageworks, Eveleigh",
+      "description": "Immersive tech demos, creator meetups, and AR/VR design workshops.",
+      "image": "https://images.unsplash.com/photo-1517036608935-8335ed370fa2?auto=format&fit=crop&w=600&q=80",
+      "embeddedMap": "https://www.google.com/maps?q=Carriageworks%20Eveleigh&output=embed"
+    },
+    {
+      "title": "Quantum Computing Meetup",
+      "date": "2027-01-22T14:00:00+11:00",
+      "venue": "CSIRO Data61, Marsfield",
+      "description": "Exploring quantum algorithms, simulators, and applications in industry.",
+      "image": "https://images.unsplash.com/photo-1581090700227-42a35ed31a00?auto=format&fit=crop&w=600&q=80",
+      "embeddedMap": "https://www.google.com/maps?q=CSIRO%20Data61%20Marsfield&output=embed"
+    }
+  ]
