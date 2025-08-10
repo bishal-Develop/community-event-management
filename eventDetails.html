@@ -95,7 +95,13 @@
   </main>
 
   <script src="eventDetails.js"></script>
-  <script src="events.js"></script>
   <script src="registerEvent.js"></script>
+
+  <!-- Cannot use app intil logged in -->
+  <script src="auth.js"></script>
+  <script>
+      // Call this as soon as the page loads to protect it
+      requireAuth();
+  </script>
 </body>
 </html>

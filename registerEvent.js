@@ -35,7 +35,15 @@ const registerEvent = (id) => {
   registrations[userEmail].push(id);
   saveRegistrations(registrations);
 
-  createEventCards(events)
+  if (typeof createEventCards === "function") {
+    createEventCards(events);
+  } else {
+    window.location.reload();
+    // After reload, scroll to bottom
+    window.onload = () => {
+        window.scrollTo(0, document.body.scrollHeight);
+    };
+  }
 };
 
 // Unregister function
@@ -55,5 +63,13 @@ const unregisterEvent = (id) => {
     registrations[userEmail] = registrations[userEmail].filter(eventId => eventId !== id);
     saveRegistrations(registrations);
    
-    createEventCards(events) 
+    if (typeof createEventCards === "function") {
+        createEventCards(events);
+      } else {
+        window.location.reload();
+        // After reload, scroll to bottom
+        window.onload = () => {
+            window.scrollTo(0, document.body.scrollHeight);
+        };
+      }
   };
