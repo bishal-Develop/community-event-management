@@ -85,7 +85,7 @@
         "date": "2026-05-08T09:30:00+10:00",
         "venue": "State Library of NSW, Macquarie St",
         "description": "Web Accessibility Day is a professional development event designed to advance knowledge and practice in creating accessible digital experiences. The program will begin with a keynote on the latest updates to the Web Content Accessibility Guidelines (WCAG) and their practical implications for web teams. Subsequent sessions will address accessible design patterns, semantic HTML, ARIA roles, and testing methodologies for different impairment types. Attendees will be able to participate in live accessibility audits of websites, guided by experienced practitioners. Workshops will focus on integrating accessibility considerations into design sprints, selecting accessible color palettes, and creating inclusive forms and navigation structures. A product showcase will feature tools for automated accessibility testing and assistive technology demonstrations. Case studies from organizations that have successfully implemented accessibility initiatives will provide real-world inspiration. Networking opportunities will connect participants with accessibility specialists, designers, and developers committed to inclusive practices. The event aims to equip attendees with actionable skills and resources to improve accessibility compliance and user experience for all audiences.",
-        "image": "https://images.unsplash.com/photo-1586287011573-d2f8b7e7f2b2?auto=format&fit=crop&w=1200&q=80",
+        "image":  "https://tse4.mm.bing.net/th/id/OIP.avX_W7nqS0La5P9ROsxhMgHaHa?r=0&pid=Api",
         "embeddedMap": "https://www.google.com/maps?q=State%20Library%20of%20New%20South%20Wales&output=embed",
         "category": "Web"
       },
@@ -95,7 +95,7 @@
         "date": "2026-06-18T10:00:00+10:00",
         "venue": "Taronga Function Centre, Mosman",
         "description": "JS in the Wild is a one-day conference focused on large-scale, real-world JavaScript applications. The event will open with a keynote exploring the evolution of JavaScript frameworks and performance considerations for complex projects. Attendees can choose from technical sessions covering advanced topics such as module federation, micro-frontends, reactive programming, and real-time data handling. Workshops will provide practical experience in scaling Node.js backends, optimizing React rendering performance, and managing shared state in distributed applications. Case studies from retail, media, and IoT companies will highlight how JavaScript powers mission-critical platforms. A vendor expo will feature development tools, performance monitoring solutions, and JavaScript hosting platforms. Panel discussions will address team workflows, testing strategies, and long-term maintenance of JavaScript codebases. Networking breaks and a closing mixer will offer opportunities to connect with fellow developers, architects, and technical leads. The event aims to provide deep technical knowledge while fostering a collaborative learning environment for JavaScript professionals.",
-        "image": "https://images.unsplash.com/photo-1581092334504-32b7dbb879f8?auto=format&fit=crop&w=1200&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg",
         "embeddedMap": "https://www.google.com/maps?q=Taronga%20Function%20Centre%20Mosman&output=embed",
         "category": "Web"
       },
@@ -105,7 +105,7 @@
         "date": "2026-07-09T18:00:00+10:00",
         "venue": "Atlassian Sydney HQ, Haymarket",
         "description": "Cloud Sydney Meetup is an evening gathering for cloud engineers, architects, and technology leaders to discuss the latest developments in cloud computing. The event will open with a keynote presentation on multi-cloud strategy and the challenges of managing hybrid environments. Attendees will hear case studies from organizations implementing Kubernetes at scale, adopting serverless architectures, and optimizing costs in public cloud deployments. Breakout sessions will cover infrastructure-as-code workflows, cloud security best practices, and performance monitoring techniques. A dedicated technical workshop will provide hands-on experience with provisioning resources using Terraform and deploying workloads via CI/CD pipelines. The event will also feature a demo showcase from cloud service providers and tool vendors. Panel discussions will address skills demand in the cloud industry and the future of distributed computing. The meetup aims to promote peer learning and foster collaboration among professionals working in cloud infrastructure and platform engineering.",
-        "image": "https://images.unsplash.com/photo-1581093588401-8e78a126b851?auto=format&fit=crop&w=1200&q=80",
+        "image":"https://tse2.mm.bing.net/th/id/OIP.BX9vIpfneGXCTVjCWwg58QHaHa?r=0&pid=Api",
         "embeddedMap": "https://www.google.com/maps?q=Atlassian%20Sydney%20HQ&output=embed",
         "category": "Cloud"
       },
@@ -115,7 +115,7 @@
         "date": "2026-08-01T08:30:00+10:00",
         "venue": "Fishburners Sydney, Ultimo",
         "description": "Hack the Harbour is a weekend hackathon bringing together developers, designers, and entrepreneurs to create innovative solutions for real-world challenges. The event will begin with team formation and problem statement briefings, followed by 48 hours of focused development. Mentors from technology, design, and business backgrounds will provide guidance throughout the hackathon. Participants will have access to APIs, datasets, and development tools to accelerate project delivery. Scheduled workshops will cover rapid prototyping, user testing methods, and pitching techniques. Meals and refreshments will be provided to support round-the-clock work. On the final day, teams will present their solutions to a panel of judges composed of investors, industry experts, and community leaders. Prizes will be awarded for categories such as Best Technical Implementation, Most Innovative Idea, and Social Impact. The event aims to encourage collaboration, foster startup culture, and highlight Sydney's talent in the tech community.",
-        "image": "https://images.unsplash.com/photo-1560264418-0da0a5efc34c?auto=format&fit=crop&w=1200&q=80",
+        "image": "https://tse2.mm.bing.net/th/id/OIP.EI0KxqwnT_S7-k4OEBcAnAHaHa?pid=Api",
         "embeddedMap": "https://www.google.com/maps?q=Fishburners%20Sydney&output=embed",
         "category": "Code"
       },
@@ -125,7 +125,7 @@
         "date": "2026-08-20T10:00:00+10:00",
         "venue": "Australian National Maritime Museum, Darling Harbour",
         "description": "Sydney Robotics Expo is a public exhibition and professional networking event showcasing the latest advancements in robotics. The day will include live demonstrations of industrial robots, autonomous vehicles, and service robots designed for healthcare, hospitality, and logistics. Exhibitors will present new robotics hardware, control systems, and AI-driven automation solutions. Technical seminars will cover topics such as sensor integration, computer vision applications, and robot safety standards. A dedicated education zone will feature workshops for students, introducing programming and robotics assembly. Panel discussions will address the future of robotics in Australia, workforce implications, and the role of robotics in sustainable manufacturing. Networking opportunities will be available for engineers, researchers, and investors. The event aims to inspire innovation, facilitate industry partnerships, and promote knowledge sharing in the field of robotics.",
-        "image": "https://images.unsplash.com/photo-1581090194720-5b78a2d4f073?auto=format&fit=crop&w=1200&q=80",
+        "image": "https://tse3.mm.bing.net/th/id/OIP.Y_oY7n-Aj-t7uGJC7rXstwHaKe?pid=Api",
         "embeddedMap": "https://www.google.com/maps?q=Australian%20National%20Maritime%20Museum&output=embed",
         "category": "Tech"
       },
@@ -155,7 +155,7 @@
         "date": "2026-11-02T10:00:00+11:00",
         "venue": "Powerhouse Museum, Ultimo",
         "description": "Game Dev Sydney is a professional gathering for game developers, designers, artists, and publishers. The event will include keynote sessions from leading figures in both indie and AAA game studios, focusing on design trends, monetization strategies, and emerging technologies in game development. Technical tracks will cover graphics optimization, multiplayer networking, and AI-driven game mechanics. A dedicated art and design track will explore concept art pipelines, 3D modeling, and animation workflows. Workshops will provide hands-on experience with game engines such as Unity and Unreal Engine, including tips for cross-platform publishing. An expo area will showcase new development tools, hardware, and VR/AR equipment. Pitch sessions will allow indie developers to present their projects to publishers and investors. The event aims to support knowledge sharing, professional growth, and collaboration within the gaming industry.",
-        "image": "https://images.unsplash.com/photo-1517430816045-df4b7de01a54?auto=format&fit=crop&w=1200&q=80",
+        "image":"https://upload.wikimedia.org/wikipedia/commons/f/f4/Video-Game-Controller-Icon.svg",
         "embeddedMap": "https://www.google.com/maps?q=Powerhouse%20Museum%20Sydney&output=embed",
         "category": "Tech"
       },
@@ -175,7 +175,7 @@
         "date": "2026-12-15T11:00:00+11:00",
         "venue": "Carriageworks, Eveleigh",
         "description": "AR/VR Sydney Showcase is an industry-focused event highlighting advancements in augmented and virtual reality technologies. The program will include live demonstrations of immersive experiences, from training simulations and architectural visualizations to interactive art installations. Technical sessions will address AR/VR content creation workflows, hardware performance optimization, and user experience considerations. Development workshops will provide guidance on working with popular AR/VR platforms, including ARKit, ARCore, and major VR headsets. Exhibitors will present the latest devices, motion tracking solutions, and software tools. Panel discussions will explore market trends, monetization opportunities, and the role of AR/VR in sectors such as healthcare, education, and entertainment. The event aims to connect developers, designers, and business leaders to explore the future of immersive technology.",
-        "image": "https://images.unsplash.com/photo-1517036608935-8335ed370fa2?auto=format&fit=crop&w=1200&q=80",
+        "image":  "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/AR-Icon.svg/512px-AR-Icon.svg.png",
         "embeddedMap": "https://www.google.com/maps?q=Carriageworks%20Eveleigh&output=embed",
         "category": "Tech"
       },
@@ -185,7 +185,7 @@
         "date": "2027-01-22T14:00:00+11:00",
         "venue": "CSIRO Data61, Marsfield",
         "description": "Quantum Computing Meetup is an afternoon session for researchers, engineers, and technology professionals exploring quantum computing's applications and capabilities. The event will open with a keynote on quantum algorithm design, followed by technical presentations on quantum simulation, error correction techniques, and hardware architectures. Case studies will highlight real-world use cases in cryptography, optimization, and machine learning. Attendees will have opportunities to participate in a hands-on lab session using cloud-based quantum computing platforms. A panel discussion will address the challenges of scaling quantum hardware, building software tools, and developing a skilled workforce for the quantum era. The meetup aims to foster knowledge exchange and encourage collaboration between academia, startups, and established technology companies.",
-        "image": "https://images.unsplash.com/photo-1581090700227-42a35ed31a00?auto=format&fit=crop&w=1200&q=80",
+        "image":"https://upload.wikimedia.org/wikipedia/commons/6/6b/Bloch_sphere.svg",
         "embeddedMap": "https://www.google.com/maps?q=CSIRO%20Data61%20Marsfield&output=embed",
         "category": "Tech"
       },
@@ -200,3 +200,4 @@
         "category": "Business"
       }
   ]
+  

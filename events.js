@@ -58,7 +58,7 @@ const createEventCards = list => {
           <button class="btn btn-outline-danger" onclick="unregisterEvent(${event.id})">Cancel</button>
         </div>
       `
-      : `<button class="btn btn-outline-success" onclick="registerEvent(${event.id})">Register</button>`;
+      : `<a class="btn btn-outline-success" href="registration.html">Register</a>`;
     const shortDescription = event.description.split(" ").slice(0, 10).join(" ");
 
     return `

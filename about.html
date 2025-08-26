@@ -23,8 +23,9 @@
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark border-bottom border-secondary fixed-top">
     <div class="container-fluid">
         <!-- Logo -->
-        <a class="navbar-brand fw-semibold" href="index.html">Community Event Management</a>
-    
+        <a class="navbar-brand fw-semibold" href="/index.html">
+          <img src="assets/logo.png" height="30" width="100" />
+        </a>    
         <!-- Nav items (aligned right with ms-auto) -->
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
@@ -70,22 +71,22 @@
           <tbody>
             <tr>
               <td><!-- NAME --><strong>Bishal kumar</strong></td>
-              <td><!-- ID -->s1234567</td>
+              <td><!-- ID -->CIHE240416</td>
               <td>Frontend Lead (HTML/Bootstrap), UI structure, navigation</td>
             </tr>
             <tr>
-              <td><strong>Priya Sharma</strong></td>
-              <td>s2345678</td>
+              <td><strong>Anoish Kumar Khadka</strong></td>
+              <td>CIHE23612</td>
               <td>JavaScript & Data (fetch/pagination/search/filters)</td>
             </tr>
             <tr>
-              <td><strong>William Lee</strong></td>
-              <td>s3456789</td>
+              <td><strong>Layesh Acharya</strong></td>
+              <td>CIHE250642</td>
               <td>Auth & LocalStorage (signup/login/session)</td>
             </tr>
             <tr>
-              <td><strong>Sofia Martinez</strong></td>
-              <td>s4567890</td>
+              <td><strong>Kamal Kc</strong></td>
+              <td>CIHE23982</td>
               <td>Content & Assets (events JSON, images, maps), documentation</td>
             </tr>
           </tbody>
@@ -97,10 +98,21 @@
     <section class="mb-5">
       <h2 class="h5">Work Distribution & Roles</h2>
       <p>
-        Our group divided the application into clear functional areas to streamline development. Alex focused on building a consistent layout using HTML and Bootstrap, including the fixed navigation bar, responsive two-column layout, and reusable card components. Priya implemented the event data pipeline using JSON, wrote the asynchronous fetching logic, and added client-side sorting, searching, category filtering, and pagination to keep the interface responsive and maintainable.
-      </p>
-      <p>
-        William implemented the lightweight authentication system using browser <code>localStorage</code>, including sign-up, login, hashed password storage with the Web Crypto API (SHA-256), session handling, route guarding, and logout. Sofia prepared the event dataset and asset references, mapped images from Unsplash to topics, verified Google Maps embeds, and ensured that event descriptions followed a clear, factual style suitable for listings and a detailed event details page.
+        Our group divided the responsibilities based on individual strengths and areas of interest to ensure efficiency and clarity in the development process.
+        </p>
+        <p>
+	•	Bishal Kumar (CIHE240416) took the lead in frontend development, designing the user interface with HTML and Bootstrap. He structured the layout, built the navigation, and ensured the pages maintained a consistent and user-friendly design.
+        </p>
+        <p>
+  •	Anoish Kumar Khadka (CIHE23612) focused on JavaScript functionality and data management. His work included implementing pagination, search, and filters, as well as handling event data fetching and display.
+</p>
+<p>
+  •	Layesh Acharya (CIHE250642) was responsible for the authentication system. He developed the signup, login, and session management logic using LocalStorage, ensuring that event registration features were tied to logged-in users.
+</p>
+<p>
+  •	Kamal KC (CIHE23982) managed the content and assets side of the project. He prepared and organised the events JSON data, sourced and integrated images and maps, and contributed to project documentation.
+
+This division of roles allowed each member to specialise in their own domain while collaborating to integrate all components into a cohesive web application.
       </p>
     </section>
 
@@ -108,10 +120,17 @@
     <section class="mb-5">
       <h2 class="h5">Project Highlights</h2>
       <p>
-        A key highlight is the dynamic events listing powered by a simple JSON data source and client-side rendering. The interface supports fast text search, category-based filtering, date range filtering, and intuitive pagination (five items per page) without requiring a backend. We also added “Read more” deep links from each card to a dedicated event details page using a query parameter (<code>?id=</code>) to fetch and display the correct record.
+        Our group’s web application stands out for its simplicity, functionality, and user-centered design. One of the main highlights is the event management platform, which allows users to browse upcoming events with ease. Features such as search, sorting, category-based filtering, and pagination make the browsing experience efficient and enjoyable. The platform ensures that users can quickly find events relevant to their interests without being overwhelmed.
       </p>
       <p>
-        Another highlight is the approachable, Bootstrap-based design that remains responsive across breakpoints. We adopted a uniform card layout with image cropping via <code>object-fit</code> for clean visual consistency. The authentication flow demonstrates a fully front-end approach to storing user sign-ups and sessions, including hashed passwords, while keeping the code simple and easy to reason about for learning purposes.
+        Another key highlight is the implementation of an authentication system entirely on the front end using LocalStorage. This gives users the ability to sign up, log in, and manage their own event registrations. By tying registrations to individual accounts, the application personalizes the experience while demonstrating how user sessions can be managed without a backend.
+      </p>
+      <p>
+        The design of the platform is also a notable achievement. By leveraging Bootstrap, the interface is responsive and visually consistent across devices. Cards, forms, and navigation elements were structured in a way that balances clarity and accessibility. This helped create a polished look and feel while keeping the layout adaptable.
+      </p>
+      <p>
+        Finally, the highlight of the project was the teamwork itself. Each member contributed distinct skills, from coding and UI design to content development and documentation. This collaborative approach not only strengthened the final product but also ensured that the workload was balanced and aligned with individual strengths.
+
       </p>
     </section>
 
@@ -119,10 +138,16 @@
     <section class="mb-5">
       <h2 class="h5">Challenges Faced</h2>
       <p>
-        One challenge was coordinating state between search, filters, sorting, and pagination. We addressed this by centralizing the render cycle: all user actions flow into a single render function that applies sorting and then paginates the filtered dataset. Another challenge was balancing a fixed viewport layout (to keep the pagination visible) with a scrollable events area; we resolved this using a constrained <code>vh</code>-based height and a sticky pagination bar inside the scroll container.
+        One of the main challenges our group encountered was integrating multiple features into a single cohesive system. Since our project involved search, sorting, filtering, pagination, and user authentication, it was important to ensure these features worked together smoothly. Coordinating the data flow between JSON files, LocalStorage, and dynamic rendering in JavaScript required careful planning and debugging.
       </p>
       <p>
-        Implementing a front-end–only authentication system also required careful handling of password hashing and session state. We used the Web Crypto API for hashing and isolated session data to a dedicated <code>localStorage</code> key. Since this is a learning project without a server, we documented the limitations (e.g., client-side security constraints) and ensured the UX communicates expected behavior clearly.
+        Another challenge was working with LocalStorage for authentication and event registrations. Without a backend, we had to simulate session handling, user-specific data, and registration logic on the client side. This made it tricky to prevent issues such as data overwriting or inconsistent state across different pages. Testing and refining this part of the project took more time than expected but gave us a deeper understanding of how front-end session management can work.
+      </p>
+      <p>
+      The team also faced difficulties with Bootstrap styling and layout. Making the platform responsive while ensuring it remained clean and accessible required adjustments to the grid system and component design. For example, balancing card content, images, and action buttons in a way that looked good on both desktop and mobile devices was not straightforward.
+      </p>
+      <p>
+        Lastly, group coordination was itself a challenge. Each member had different strengths and availability, which sometimes made it difficult to synchronize progress. However, by dividing roles clearly and communicating regularly, we were able to overcome these challenges and deliver a working solution on time.
       </p>
     </section>
 
